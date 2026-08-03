@@ -20,3 +20,18 @@ This repository contains a personal portfolio website built with HTML and CSS. I
 - style.css — main styling for the site
 - projects/ — folder containing individual project demos
 - background/ — images and assets used throughout the site
+
+  
+## Technologies Used
+
+- HTML5
+- CSS3
+- Responsive web design
+
+## Author
+
+DEV_ADAH
+
+## Contact
+
+If you want to connect, visit the contact section on the site or reach out through the links included in the portfolio.
