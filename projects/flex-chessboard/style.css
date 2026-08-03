@@ -1,0 +1,36 @@
+.outer-layer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 640px;
+    width: 640px;
+    border: 10px solid ;
+    border-radius: 20px;
+
+}
+.b{ 
+    background-color: black;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 80px;
+    height: 80px;
+}
+.w{ 
+    background-color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 80px;
+    height: 80px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 100px;
+    background-color: lavender;
+    :hover {
+        background-color: lightblue;
+        transform: scale(1.1);
+        border-radius: 10px;
+    }
+
+}

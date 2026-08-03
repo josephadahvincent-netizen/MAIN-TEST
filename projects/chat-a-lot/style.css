@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  background-color: rgb(3, 4, 39) ;
+}
+
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+a{
+  text-decoration: none;
+  color: white;
+}
+h1{
+  color: rgb(255, 255, 255);
+}
+height: 60px;
+background-color: rgb(3, 4, 39);
+
+ul{
+  display: flex;
+  gap: 15px;
+}
+
+  button{
+    border-radius: 12px;
+  }
+
+}
+
+#reg{
+  display: flex;
+  height: 30px;
+  width: 100px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.658);
+  color: white;
+} 
+
+
+.login-container{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    height: 500px;
+    justify-content:center;
+    gap: 10px;
+    input{
+      height: 50px;
+      width: 500px;
+      margin-top: 10px;
+      border-radius: 12px;
+      background-color: rgba(15, 15, 22, 0.52);
+      color: white;
+    }
+    button{
+      height: 40px;
+      width: 200px;
+      background-color: rgba(0, 0, 0, 0.507);
+      color: white;
+      margin-top: 2px;
+      border-radius: 9px;
+
+    }
+    h1{
+      color: white;
+    }
+  }
+
+
+.credentials{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: 200px;
+  margin-left: 35em;
+  margin-right: 100px;
+  width: 50em;
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
+  border-radius: 16px; 
+}
+
+
+
+
+
+
+
+
